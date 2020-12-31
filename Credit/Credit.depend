@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1609272982 source:d:\clang\credit\main.c
+1609447240 source:d:\clang\credit\main.c
 	<stdio.h>
 	<stdlib.h>
 	<cs50.h>
