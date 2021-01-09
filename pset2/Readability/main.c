@@ -26,9 +26,7 @@ int main()
         }
     }
     words+=1;
-    float letter_count=   0.0588 *(float) letters / words *100;
-    float sentence_count= 0.296 *(float) sentences / words *100;
-    float index = letter_count - sentence_count - 15.8;
+    float index = (0.0588 *(float) letters / words *100) - (0.296 *(float) sentences / words *100) - 15.8;
     float grade = index;
 
     //printf("letters : %i\nwords : %i\nsentences : %i\n",letters,words,sentences);
